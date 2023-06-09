@@ -1,0 +1,10 @@
+.form div svg {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.form div {
+  position: relative;
+}
