@@ -19,7 +19,7 @@ const Chat = () => {
       return;
     }
 
-    let authObject = { "Private-Key": "cf57477e-7270-402b-bb16-aa3121d4668d" };
+    let authObject = { "Private-Key": "c349792a-8c85-48a0-8439-26c370efde25" };
     // get or create the user if it doesn't exist
     axios
       .put(
@@ -43,7 +43,7 @@ const Chat = () => {
       <Navbar />
       <ChatEngine
         height="calc(100vh - 56px)"
-        projectID="14d418e4-ff98-44f6-b061-4c5ee1b5c836"
+        projectID="4f94c444-90df-4c48-b85b-e8366148ce3d"
         userName={user.email}
         userSecret={user.uid}
       />
